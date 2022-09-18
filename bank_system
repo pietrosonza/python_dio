@@ -39,7 +39,7 @@ while True:
       elif valor_saque > saldo:
         print("Saldo insuficiente")
 
-      elif valor_saque > saque_valor :
+      elif valor_saque > saque_valor:
         print('O valor desejado é maior que o limite por saque.')
 
       else:
