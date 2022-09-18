@@ -14,14 +14,14 @@
 # - Saída
 
 # Para cada caso de entrada imprima uma mensagem indicando se o segundo valor
-# encaixa no primeiro valor, confome exemplo abaixo.
 
 
 
 
-N = int(input())
 
-while(N>0):
+n = int(input())
+
+while(n > 0):
   valores = input().strip().split(" ")
   if len(valores) > 1:
     A, B = valores[0], valores[1]
@@ -32,6 +32,6 @@ while(N>0):
         print("encaixa")
       else:
         print("nao encaixa")
-      N =- 1 
+      n =- 1 
   else:
     break
